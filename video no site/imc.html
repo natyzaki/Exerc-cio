@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+ <link rel="stylesheet" href="imc.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Índice de Massa Corporal</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora de IMC</h2>
+
+        <label for="peso"> Peso</label>
+        <input type="number" name="Peso" id="Peso" placeholder="Digite seu peso">
+        
+        <label for="altura"> Altura </label>
+        <input type="number" name="Altura" id="Altura" placeholder="Digite sua Altura" step="0.01"
+        min="0">
+        <button class="glow-on-hover" type="button">Calcular</button>
+        <p id="Resultado"></p>
+        <button class="toggle-mode" onclick="alternarModo()">Alterar Modo Claro/Escuro</button>    
+
+
+    </div>
+    <script>
+        function alternarModo(){
+            document.body.classList.toggle
+            ('dark-mode')
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
